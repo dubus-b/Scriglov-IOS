@@ -1,0 +1,6 @@
+framework module Pods_ScriglovIOSTests {
+  umbrella header "Pods-ScriglovIOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE64C49ECA1C6F2E13B7D85 /* Pods_ScriglovIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C5FBBA06121A2815AB49AB /* Pods_ScriglovIOS.framework */; };
+		D4C75E2F216E80C300A4698C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C75E2E216E80C300A4698C /* AppDelegate.swift */; };
+		D4C75E31216E80C300A4698C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C75E30216E80C300A4698C /* ViewController.swift */; };
+		D4C75E34216E80C300A4698C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C75E32216E80C300A4698C /* Main.storyboard */; };
+		D4C75E37216E80C300A4698C /* ScriglovIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4C75E35216E80C300A4698C /* ScriglovIOS.xcdatamodeld */; };
+		D4C75E39216E80C400A4698C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C75E38216E80C400A4698C /* Assets.xcassets */; };
+		D4C75E3C216E80C400A4698C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C75E3A216E80C400A4698C /* LaunchScreen.storyboard */; };
+		D4C75E47216E80C400A4698C /* ScriglovIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C75E46216E80C400A4698C /* ScriglovIOSTests.swift */; };
+		D4C75E52216E80C400A4698C /* ScriglovIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C75E51216E80C400A4698C /* ScriglovIOSUITests.swift */; };
+		D4D5A9FF21753075006BEDA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5A9FE21753075006BEDA1 /* SecondViewController.swift */; };
+		D4D5AA01217532AD006BEDA1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5AA00217532AD006BEDA1 /* ProfileViewController.swift */; };
+		D4D5AA03217535F3006BEDA1 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D5AA02217535F3006BEDA1 /* SignUp.storyboard */; };
+		E52D2A4103302175C4CBFB98 /* Pods_ScriglovIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F163C896EACB26038060DC30 /* Pods_ScriglovIOSUITests.framework */; };
+		F38705B40E12DC973B52BDA4 /* Pods_ScriglovIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC329781AA312BA7110F9F10 /* Pods_ScriglovIOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4C75E43216E80C400A4698C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C75E23216E80C300A4698C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C75E2A216E80C300A4698C;
+			remoteInfo = ScriglovIOS;
+		};
+		D4C75E4E216E80C400A4698C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4C75E23216E80C300A4698C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C75E2A216E80C300A4698C;
+			remoteInfo = ScriglovIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05229D6FD243FD9CCEB585BC /* Pods-ScriglovIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOS/Pods-ScriglovIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		56306E58CB23BA88618FA501 /* Pods-ScriglovIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOSTests/Pods-ScriglovIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83C5FBBA06121A2815AB49AB /* Pods_ScriglovIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScriglovIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947D610EC6D7ADABFB23201B /* Pods-ScriglovIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOS/Pods-ScriglovIOS.release.xcconfig"; sourceTree = "<group>"; };
+		AE9E0CC15C5536299A06A02F /* Pods-ScriglovIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOSUITests/Pods-ScriglovIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7D4322924B58943D7D8206A /* Pods-ScriglovIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOSUITests/Pods-ScriglovIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4C75E2B216E80C300A4698C /* ScriglovIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScriglovIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C75E2E216E80C300A4698C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4C75E30216E80C300A4698C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4C75E33216E80C300A4698C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4C75E36216E80C300A4698C /* ScriglovIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScriglovIOS.xcdatamodel; sourceTree = "<group>"; };
+		D4C75E38216E80C400A4698C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C75E3B216E80C400A4698C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4C75E3D216E80C400A4698C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C75E42216E80C400A4698C /* ScriglovIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriglovIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C75E46216E80C400A4698C /* ScriglovIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriglovIOSTests.swift; sourceTree = "<group>"; };
+		D4C75E48216E80C400A4698C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C75E4D216E80C400A4698C /* ScriglovIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriglovIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C75E51216E80C400A4698C /* ScriglovIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriglovIOSUITests.swift; sourceTree = "<group>"; };
+		D4C75E53216E80C400A4698C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D5A9FE21753075006BEDA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D4D5AA00217532AD006BEDA1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D4D5AA02217535F3006BEDA1 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		EC329781AA312BA7110F9F10 /* Pods_ScriglovIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScriglovIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F163C896EACB26038060DC30 /* Pods_ScriglovIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScriglovIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9134190C0778E20974A846E /* Pods-ScriglovIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOSTests/Pods-ScriglovIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4C75E28216E80C300A4698C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE64C49ECA1C6F2E13B7D85 /* Pods_ScriglovIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C75E3F216E80C400A4698C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38705B40E12DC973B52BDA4 /* Pods_ScriglovIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C75E4A216E80C400A4698C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D2A4103302175C4CBFB98 /* Pods_ScriglovIOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F20050D7F083F13FC66ECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83C5FBBA06121A2815AB49AB /* Pods_ScriglovIOS.framework */,
+				EC329781AA312BA7110F9F10 /* Pods_ScriglovIOSTests.framework */,
+				F163C896EACB26038060DC30 /* Pods_ScriglovIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		610E935CC8784E2105E4B6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05229D6FD243FD9CCEB585BC /* Pods-ScriglovIOS.debug.xcconfig */,
+				947D610EC6D7ADABFB23201B /* Pods-ScriglovIOS.release.xcconfig */,
+				56306E58CB23BA88618FA501 /* Pods-ScriglovIOSTests.debug.xcconfig */,
+				F9134190C0778E20974A846E /* Pods-ScriglovIOSTests.release.xcconfig */,
+				AE9E0CC15C5536299A06A02F /* Pods-ScriglovIOSUITests.debug.xcconfig */,
+				B7D4322924B58943D7D8206A /* Pods-ScriglovIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4C75E22216E80C300A4698C = {
+			isa = PBXGroup;
+			children = (
+				D4C75E2D216E80C300A4698C /* ScriglovIOS */,
+				D4C75E45216E80C400A4698C /* ScriglovIOSTests */,
+				D4C75E50216E80C400A4698C /* ScriglovIOSUITests */,
+				D4C75E2C216E80C300A4698C /* Products */,
+				610E935CC8784E2105E4B6B4 /* Pods */,
+				12F20050D7F083F13FC66ECC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4C75E2C216E80C300A4698C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4C75E2B216E80C300A4698C /* ScriglovIOS.app */,
+				D4C75E42216E80C400A4698C /* ScriglovIOSTests.xctest */,
+				D4C75E4D216E80C400A4698C /* ScriglovIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4C75E2D216E80C300A4698C /* ScriglovIOS */ = {
+			isa = PBXGroup;
+			children = (
+				D4C75E2E216E80C300A4698C /* AppDelegate.swift */,
+				D4C75E30216E80C300A4698C /* ViewController.swift */,
+				D4C75E32216E80C300A4698C /* Main.storyboard */,
+				D4D5AA02217535F3006BEDA1 /* SignUp.storyboard */,
+				D4C75E38216E80C400A4698C /* Assets.xcassets */,
+				D4C75E3A216E80C400A4698C /* LaunchScreen.storyboard */,
+				D4C75E3D216E80C400A4698C /* Info.plist */,
+				D4C75E35216E80C300A4698C /* ScriglovIOS.xcdatamodeld */,
+				D4D5A9FE21753075006BEDA1 /* SecondViewController.swift */,
+				D4D5AA00217532AD006BEDA1 /* ProfileViewController.swift */,
+			);
+			path = ScriglovIOS;
+			sourceTree = "<group>";
+		};
+		D4C75E45216E80C400A4698C /* ScriglovIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C75E46216E80C400A4698C /* ScriglovIOSTests.swift */,
+				D4C75E48216E80C400A4698C /* Info.plist */,
+			);
+			path = ScriglovIOSTests;
+			sourceTree = "<group>";
+		};
+		D4C75E50216E80C400A4698C /* ScriglovIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C75E51216E80C400A4698C /* ScriglovIOSUITests.swift */,
+				D4C75E53216E80C400A4698C /* Info.plist */,
+			);
+			path = ScriglovIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4C75E2A216E80C300A4698C /* ScriglovIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C75E56216E80C400A4698C /* Build configuration list for PBXNativeTarget "ScriglovIOS" */;
+			buildPhases = (
+				155F06EC2AFA95B7D4AE88F4 /* [CP] Check Pods Manifest.lock */,
+				D4C75E27216E80C300A4698C /* Sources */,
+				D4C75E28216E80C300A4698C /* Frameworks */,
+				D4C75E29216E80C300A4698C /* Resources */,
+				0C1B131D9C7441A536CE8FC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScriglovIOS;
+			productName = ScriglovIOS;
+			productReference = D4C75E2B216E80C300A4698C /* ScriglovIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4C75E41216E80C400A4698C /* ScriglovIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C75E59216E80C400A4698C /* Build configuration list for PBXNativeTarget "ScriglovIOSTests" */;
+			buildPhases = (
+				A1FBA233B917AF1CDEE305F2 /* [CP] Check Pods Manifest.lock */,
+				D4C75E3E216E80C400A4698C /* Sources */,
+				D4C75E3F216E80C400A4698C /* Frameworks */,
+				D4C75E40216E80C400A4698C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C75E44216E80C400A4698C /* PBXTargetDependency */,
+			);
+			name = ScriglovIOSTests;
+			productName = ScriglovIOSTests;
+			productReference = D4C75E42216E80C400A4698C /* ScriglovIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4C75E4C216E80C400A4698C /* ScriglovIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C75E5C216E80C400A4698C /* Build configuration list for PBXNativeTarget "ScriglovIOSUITests" */;
+			buildPhases = (
+				5E9411255D471E546E38D366 /* [CP] Check Pods Manifest.lock */,
+				D4C75E49216E80C400A4698C /* Sources */,
+				D4C75E4A216E80C400A4698C /* Frameworks */,
+				D4C75E4B216E80C400A4698C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C75E4F216E80C400A4698C /* PBXTargetDependency */,
+			);
+			name = ScriglovIOSUITests;
+			productName = ScriglovIOSUITests;
+			productReference = D4C75E4D216E80C400A4698C /* ScriglovIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4C75E23216E80C300A4698C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Benjamin Dubus";
+				TargetAttributes = {
+					D4C75E2A216E80C300A4698C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D4C75E41216E80C400A4698C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D4C75E2A216E80C300A4698C;
+					};
+					D4C75E4C216E80C400A4698C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D4C75E2A216E80C300A4698C;
+					};
+				};
+			};
+			buildConfigurationList = D4C75E26216E80C300A4698C /* Build configuration list for PBXProject "ScriglovIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4C75E22216E80C300A4698C;
+			productRefGroup = D4C75E2C216E80C300A4698C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4C75E2A216E80C300A4698C /* ScriglovIOS */,
+				D4C75E41216E80C400A4698C /* ScriglovIOSTests */,
+				D4C75E4C216E80C400A4698C /* ScriglovIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4C75E29216E80C300A4698C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C75E3C216E80C400A4698C /* LaunchScreen.storyboard in Resources */,
+				D4C75E39216E80C400A4698C /* Assets.xcassets in Resources */,
+				D4D5AA03217535F3006BEDA1 /* SignUp.storyboard in Resources */,
+				D4C75E34216E80C300A4698C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C75E40216E80C400A4698C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C75E4B216E80C400A4698C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1B131D9C7441A536CE8FC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ScriglovIOS/Pods-ScriglovIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScriglovIOS/Pods-ScriglovIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		155F06EC2AFA95B7D4AE88F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScriglovIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9411255D471E546E38D366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScriglovIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FBA233B917AF1CDEE305F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScriglovIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4C75E27216E80C300A4698C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D5A9FF21753075006BEDA1 /* SecondViewController.swift in Sources */,
+				D4C75E31216E80C300A4698C /* ViewController.swift in Sources */,
+				D4D5AA01217532AD006BEDA1 /* ProfileViewController.swift in Sources */,
+				D4C75E37216E80C300A4698C /* ScriglovIOS.xcdatamodeld in Sources */,
+				D4C75E2F216E80C300A4698C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C75E3E216E80C400A4698C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C75E47216E80C400A4698C /* ScriglovIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C75E49216E80C400A4698C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C75E52216E80C400A4698C /* ScriglovIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4C75E44216E80C400A4698C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C75E2A216E80C300A4698C /* ScriglovIOS */;
+			targetProxy = D4C75E43216E80C400A4698C /* PBXContainerItemProxy */;
+		};
+		D4C75E4F216E80C400A4698C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4C75E2A216E80C300A4698C /* ScriglovIOS */;
+			targetProxy = D4C75E4E216E80C400A4698C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4C75E32216E80C300A4698C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C75E33216E80C300A4698C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4C75E3A216E80C400A4698C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4C75E3B216E80C400A4698C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4C75E54216E80C400A4698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4C75E55216E80C400A4698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4C75E57216E80C400A4698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05229D6FD243FD9CCEB585BC /* Pods-ScriglovIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScriglovIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scriglov.ScriglovIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4C75E58216E80C400A4698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947D610EC6D7ADABFB23201B /* Pods-ScriglovIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScriglovIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scriglov.ScriglovIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4C75E5A216E80C400A4698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56306E58CB23BA88618FA501 /* Pods-ScriglovIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScriglovIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scriglov.ScriglovIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScriglovIOS.app/ScriglovIOS";
+			};
+			name = Debug;
+		};
+		D4C75E5B216E80C400A4698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9134190C0778E20974A846E /* Pods-ScriglovIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScriglovIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scriglov.ScriglovIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScriglovIOS.app/ScriglovIOS";
+			};
+			name = Release;
+		};
+		D4C75E5D216E80C400A4698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9E0CC15C5536299A06A02F /* Pods-ScriglovIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScriglovIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scriglov.ScriglovIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScriglovIOS;
+			};
+			name = Debug;
+		};
+		D4C75E5E216E80C400A4698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D4322924B58943D7D8206A /* Pods-ScriglovIOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScriglovIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scriglov.ScriglovIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScriglovIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4C75E26216E80C300A4698C /* Build configuration list for PBXProject "ScriglovIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C75E54216E80C400A4698C /* Debug */,
+				D4C75E55216E80C400A4698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C75E56216E80C400A4698C /* Build configuration list for PBXNativeTarget "ScriglovIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C75E57216E80C400A4698C /* Debug */,
+				D4C75E58216E80C400A4698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C75E59216E80C400A4698C /* Build configuration list for PBXNativeTarget "ScriglovIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C75E5A216E80C400A4698C /* Debug */,
+				D4C75E5B216E80C400A4698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C75E5C216E80C400A4698C /* Build configuration list for PBXNativeTarget "ScriglovIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4C75E5D216E80C400A4698C /* Debug */,
+				D4C75E5E216E80C400A4698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4C75E35216E80C300A4698C /* ScriglovIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4C75E36216E80C300A4698C /* ScriglovIOS.xcdatamodel */,
+			);
+			currentVersion = D4C75E36216E80C300A4698C /* ScriglovIOS.xcdatamodel */;
+			path = ScriglovIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4C75E23216E80C300A4698C /* Project object */;
+}
