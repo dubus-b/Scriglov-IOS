@@ -11,6 +11,7 @@ import Alamofire
 
 class ViewController: UIViewController {
     
+    var text:String = ""
     @IBOutlet weak var labelMessage: UILabel!
     @IBOutlet weak var mailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -25,8 +26,14 @@ class ViewController: UIViewController {
     //@IBOutlet weak var labelMessage: UILabel!
     //@IBOutlet weak var textFieldUserName: UITextField!
     //@IBOutlet weak var textFieldPassword: UITextField!
+    @IBAction func SignUP(_ sender: UIButton) {
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc : UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "SecondViewController") as UIViewController
+        self.present(vc, animated: true, completion: nil)
+    }
     
     @IBAction func buttonLogin(_ sender: UIButton) {
+
         //getting the username and password
         let parameters: Parameters=[
             "mail":mailField.text!,
@@ -50,6 +57,9 @@ class ViewController: UIViewController {
                         let user = jsonData.value(forKey: "response") as! String
                         
                         print(user)
+                            let mail = self.mailField.text!
+                            print(mail)
+                            self.defaultValues.set(mail, forKey: "mail")
                             let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
                             let vc : UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "ProfileViewController") as UIViewController
                             self.present(vc, animated: true, completion: nil)
@@ -59,7 +69,7 @@ class ViewController: UIViewController {
                         //self.dismiss(animated: true, completion: nil)
                     }else{
                         //error message in case of invalid credential
-                        self.labelMessage.text = "Invalid username or password"
+                        self.labelMessage.text = "Mot de passe ou adresse mail invalide"
                     }
                 }
         }

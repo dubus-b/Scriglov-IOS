@@ -18,7 +18,6 @@
 		D4C75E52216E80C400A4698C /* ScriglovIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C75E51216E80C400A4698C /* ScriglovIOSUITests.swift */; };
 		D4D5A9FF21753075006BEDA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5A9FE21753075006BEDA1 /* SecondViewController.swift */; };
 		D4D5AA01217532AD006BEDA1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D5AA00217532AD006BEDA1 /* ProfileViewController.swift */; };
-		D4D5AA03217535F3006BEDA1 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D5AA02217535F3006BEDA1 /* SignUp.storyboard */; };
 		E52D2A4103302175C4CBFB98 /* Pods_ScriglovIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F163C896EACB26038060DC30 /* Pods_ScriglovIOSUITests.framework */; };
 		F38705B40E12DC973B52BDA4 /* Pods_ScriglovIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC329781AA312BA7110F9F10 /* Pods_ScriglovIOSTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,7 +62,6 @@
 		D4C75E53216E80C400A4698C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4D5A9FE21753075006BEDA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D4D5AA00217532AD006BEDA1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		D4D5AA02217535F3006BEDA1 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		EC329781AA312BA7110F9F10 /* Pods_ScriglovIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScriglovIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F163C896EACB26038060DC30 /* Pods_ScriglovIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScriglovIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9134190C0778E20974A846E /* Pods-ScriglovIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScriglovIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScriglovIOSTests/Pods-ScriglovIOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				D4C75E2E216E80C300A4698C /* AppDelegate.swift */,
 				D4C75E30216E80C300A4698C /* ViewController.swift */,
 				D4C75E32216E80C300A4698C /* Main.storyboard */,
-				D4D5AA02217535F3006BEDA1 /* SignUp.storyboard */,
 				D4C75E38216E80C400A4698C /* Assets.xcassets */,
 				D4C75E3A216E80C400A4698C /* LaunchScreen.storyboard */,
 				D4C75E3D216E80C400A4698C /* Info.plist */,
@@ -287,7 +284,6 @@
 			files = (
 				D4C75E3C216E80C400A4698C /* LaunchScreen.storyboard in Resources */,
 				D4C75E39216E80C400A4698C /* Assets.xcassets in Resources */,
-				D4D5AA03217535F3006BEDA1 /* SignUp.storyboard in Resources */,
 				D4C75E34216E80C300A4698C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
