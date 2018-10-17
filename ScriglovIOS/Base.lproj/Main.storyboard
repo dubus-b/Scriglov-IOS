@@ -162,7 +162,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Nom" textAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="0di-vT-9Gl">
                                 <rect key="frame" x="85" y="265" width="204" height="30"/>
@@ -250,6 +250,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9Z7-Wr-gRK"/>
+        <segue reference="XFC-Zo-zTS"/>
     </inferredMetricsTieBreakers>
 </document>
